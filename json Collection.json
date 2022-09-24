@@ -1,0 +1,2327 @@
+{
+	"info": {
+		"_postman_id": "1fbf7819-b864-4d46-9ee8-c2fb5c33f097",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1583143"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "get Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/categories",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Categories",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/categories",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"categories"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 14:23:04 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 1,\n                \"name\": \"Ut iusto fugit accusantium rerum nihil.\",\n                \"description\": \"Amet adipisci rerum exercitationem eveniet nesciunt. Eum vel incidunt eaque alias dignissimos. Nihil vitae aliquam sit quia.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 2,\n                \"name\": \"Molestias et officiis est quasi modi eum.\",\n                \"description\": \"Error error nisi excepturi aliquam. Repellat eius cumque quia similique. Praesentium nemo sapiente facilis velit voluptate.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 3,\n                \"name\": \"Alias quia aut placeat non ab et ut.\",\n                \"description\": \"Sint ducimus eum consequatur amet nihil quisquam quod. A quasi dolorum vitae rem. Ipsa sapiente labore omnis voluptates. Sunt inventore debitis quo odio saepe nisi.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 4,\n                \"name\": \"Temporibus sit exercitationem ut ea sit aut.\",\n                \"description\": \"Ipsum nihil odio illo repudiandae quasi. Voluptates dolore et saepe et nihil blanditiis. Molestiae eum eaque quia reprehenderit.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 5,\n                \"name\": \"Non delectus vitae commodi aperiam.\",\n                \"description\": \"Corrupti laborum iste velit deleniti dignissimos nulla. Qui dolorum commodi praesentium nulla dolores perferendis. Omnis qui id facilis reiciendis quo aut doloribus.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 6,\n                \"name\": \"Rerum ut aut labore quis et inventore.\",\n                \"description\": \"Deserunt consequatur quam in voluptas quia ducimus. Non quo voluptates qui praesentium. Deleniti et nihil temporibus ut. Modi cumque at vero rerum.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 7,\n                \"name\": \"Voluptate minus nam ratione explicabo dolor.\",\n                \"description\": \"Inventore nemo nam possimus saepe ut molestias sit. Quo et voluptates ipsa sed voluptatem sequi veniam. Minus consequatur cupiditate magnam. Quia pariatur eaque libero qui dolor facere.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 8,\n                \"name\": \"Laborum nisi nam similique.\",\n                \"description\": \"Voluptas velit consequatur alias earum. Repellat et maxime voluptatibus ut. Tempore possimus nesciunt tempora dicta repellendus.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 9,\n                \"name\": \"Numquam officia et et.\",\n                \"description\": \"Dolorum vel dolorem qui similique. Veritatis beatae officiis molestiae natus. Aspernatur totam totam beatae nihil id. Et magni quidem amet eaque eveniet eaque quisquam adipisci.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 10,\n                \"name\": \"Maxime numquam adipisci magnam id est dolores.\",\n                \"description\": \"Atque temporibus quae maxime enim exercitationem ratione est. Qui non ipsum debitis sint atque. Nemo architecto voluptas fuga amet eum minus.\",\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            }\n        ],\n        \"first_page_url\": \"http://localhost/advertisers/public/api/categories?page=1\",\n        \"from\": 1,\n        \"last_page\": 1,\n        \"last_page_url\": \"http://localhost/advertisers/public/api/categories?page=1\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/advertisers/public/api/categories?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": null,\n        \"path\": \"http://localhost/advertisers/public/api/categories\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 10,\n        \"total\": 10\n    },\n    \"message\": \"Categories returned Successfully\",\n    \"code\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "add Category",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Category1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "update every body1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server_url}}/public/api/categories",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add Category",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Category name",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "update every body",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/categories",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"categories"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 14:42:00 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"name\": \"Category name\",\n        \"description\": \"update every body\",\n        \"updated_at\": \"2022-09-24T14:42:00.000000Z\",\n        \"created_at\": \"2022-09-24T14:42:00.000000Z\",\n        \"id\": 17\n    },\n    \"message\": \"Categories returned Successfully\",\n    \"code\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Category",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "_method",
+								"value": "PUT",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "test update1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "description ekeke",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server_url}}/public/api/update/category?id=150",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"update",
+								"category"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "150"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Category",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "_method",
+										"value": "PUT",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "test update1",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "description ekeke",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/update/category?id=15",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"update",
+										"category"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "15"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:20:32 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"id\": 15,\n        \"name\": \"test update1\",\n        \"description\": \"description ekeke\",\n        \"created_at\": \"2022-09-24T14:37:37.000000Z\",\n        \"updated_at\": \"2022-09-24T15:20:33.000000Z\"\n    },\n    \"message\": \"Categories Updated Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "Update Category",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "_method",
+										"value": "PUT",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "test update1",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "description ekeke",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/update/category?id=150",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"update",
+										"category"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "150"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:21:23 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "56"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"name\": [\n            \"The name has already been taken.\"\n        ],\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{server_url}}/public/api/delete/category?id=120",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"delete",
+								"category"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "120"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Category",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/delete/category?id=12",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"delete",
+										"category"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "12"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:30:03 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "56"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": true,\n    \"message\": \"Categories Deleted Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "Delete Category",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/delete/category?id=120",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"delete",
+										"category"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "120"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:30:31 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						}
+					]
+				},
+				{
+					"name": "get Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/categories/1",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"categories",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Category",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/categories/11",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"categories",
+										"11"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:34:13 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=99"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"id\": 11,\n        \"name\": \"cate1\",\n        \"description\": \"hello every body\",\n        \"created_at\": \"2022-09-24T14:32:42.000000Z\",\n        \"updated_at\": \"2022-09-24T14:32:42.000000Z\"\n    },\n    \"message\": \"Categories returned Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "get Category",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/categories/110",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"categories",
+										"110"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:34:39 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>Not Found</title>\n        <!-- Fonts -->\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\">\n        <link href=\"https://fonts.googleapis.com/css2?family=Nunito&display=swap\" rel=\"stylesheet\">\n        <style>\n            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}code{font-family:monospace,monospace;font-size:1em}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}code{font-family:Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-gray-400{--border-opacity:1;border-color:#cbd5e0;border-color:rgba(203,213,224,var(--border-opacity))}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-xl{max-width:36rem}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.uppercase{text-transform:uppercase}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tracking-wider{letter-spacing:.05em}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes  spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@-webkit-keyframes ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes  ping{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@-webkit-keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes  pulse{0%,to{opacity:1}50%{opacity:.5}}@-webkit-keyframes bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@keyframes  bounce{0%,to{transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(.8,0,1,1);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:translateY(0);-webkit-animation-timing-function:cubic-bezier(0,0,.2,1);animation-timing-function:cubic-bezier(0,0,.2,1)}}@media (min-width:640px){.sm\\:rounded-lg{border-radius:.5rem}.sm\\:block{display:block}.sm\\:items-center{align-items:center}.sm\\:justify-start{justify-content:flex-start}.sm\\:justify-between{justify-content:space-between}.sm\\:h-20{height:5rem}.sm\\:ml-0{margin-left:0}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:pt-0{padding-top:0}.sm\\:text-left{text-align:left}.sm\\:text-right{text-align:right}}@media (min-width:768px){.md\\:border-t-0{border-top-width:0}.md\\:border-l{border-left-width:1px}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}\n        </style>\n        <style>\n            body {\n                font-family: 'Nunito', sans-serif;\n            }\n        </style>\n    </head>\n    <body class=\"antialiased\">\n        <div class=\"relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0\">\n            <div class=\"max-w-xl mx-auto sm:px-6 lg:px-8\">\n                <div class=\"flex items-center pt-8 sm:justify-start sm:pt-0\">\n                    <div class=\"px-4 text-lg text-gray-500 border-r border-gray-400 tracking-wider\">\n                        404                    </div>\n                    <div class=\"ml-4 text-lg text-gray-500 uppercase tracking-wider\">\n                        Not Found                    </div>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tags",
+			"item": [
+				{
+					"name": "get Tags",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/tags",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"tags"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Tags",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/tags",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"tags"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:45:42 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 1,\n                \"name\": \"Ut.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 2,\n                \"name\": \"Quam.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 3,\n                \"name\": \"Ut non.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 4,\n                \"name\": \"Omnis.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 5,\n                \"name\": \"Harum.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 6,\n                \"name\": \"Et.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 7,\n                \"name\": \"Quasi.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 8,\n                \"name\": \"Qui culpa.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 9,\n                \"name\": \"Et.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            },\n            {\n                \"id\": 10,\n                \"name\": \"Id.\",\n                \"description\": null,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n            }\n        ],\n        \"first_page_url\": \"http://localhost/advertisers/public/api/tags?page=1\",\n        \"from\": 1,\n        \"last_page\": 1,\n        \"last_page_url\": \"http://localhost/advertisers/public/api/tags?page=1\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/advertisers/public/api/tags?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": null,\n        \"path\": \"http://localhost/advertisers/public/api/tags\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 10,\n        \"total\": 10\n    },\n    \"message\": \"Tags returned Successfully\",\n    \"code\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "add tags",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "tag1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server_url}}/public/api/tags",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"tags"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add tags",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "tag1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/tags",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"tags"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 15:59:28 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "56"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=99"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"name\": \"tag1\",\n        \"updated_at\": \"2022-09-24T15:59:28.000000Z\",\n        \"created_at\": \"2022-09-24T15:59:28.000000Z\",\n        \"id\": 12\n    },\n    \"message\": \"Tags Saved Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "add tags",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "tag1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/tags",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"tags"
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:00:21 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"name\": [\n            \"The name has already been taken.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Tag",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "test update ",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server_url}}/public/api/update/tag?id=1",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"update",
+								"tag"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Tag",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "test update ",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/update/tag?id=10",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"update",
+										"tag"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:01:10 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"id\": 10,\n        \"name\": \"test update\",\n        \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n        \"updated_at\": \"2022-09-24T16:01:10.000000Z\"\n    },\n    \"message\": \"Tags Updated Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "Update Tag",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "test update ",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/update/tag?id=100",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"update",
+										"tag"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "100"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:01:40 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"name\": [\n            \"The name has already been taken.\"\n        ],\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Tag",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/delete/tag?id=1",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"delete",
+								"tag"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Tag",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/delete/tag?id=10",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"delete",
+										"tag"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:02:28 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": true,\n    \"message\": \"Tags Deleted Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "Delete Tag",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/delete/tag?id=100",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"delete",
+										"tag"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "100"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:02:37 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						},
+						{
+							"name": "Delete Tag",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/delete/tag?id=100",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"delete",
+										"tag"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "100"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:06:43 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						}
+					]
+				},
+				{
+					"name": "get Tag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/tags/1",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"tags",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Tag",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/tags/9",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"tags",
+										"9"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 16:03:20 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "56"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"id\": 9,\n        \"name\": \"Et.\",\n        \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n        \"updated_at\": \"2022-09-24T12:24:01.000000Z\"\n    },\n    \"message\": \"Tags returned Successfully\",\n    \"code\": 200\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Advertise",
+			"item": [
+				{
+					"name": "get all Advertise with its relation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/advertises",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"advertises"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search with tags , advertisers and title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/public/api/advertises?filter=filter&type=free",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"advertises"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "filter"
+								},
+								{
+									"key": "tags[]",
+									"value": "Ut.",
+									"disabled": true
+								},
+								{
+									"key": "tags[]",
+									"value": "Quam.",
+									"disabled": true
+								},
+								{
+									"key": "advertiser[]",
+									"value": "Brandy Lemke",
+									"disabled": true
+								},
+								{
+									"key": "advertiser[]",
+									"value": "Twila Wolf",
+									"disabled": true
+								},
+								{
+									"key": "title",
+									"value": "Quidem sapiente autem",
+									"disabled": true
+								},
+								{
+									"key": "type",
+									"value": "free",
+									"description": "free Or paid"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "search with tags , advertisers",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/advertises?filter=filter&tags[]=Ut.&advertiser[]=Brandy Lemke&advertiser[]=Twila Wolf",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"advertises"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "filter"
+										},
+										{
+											"key": "tags[]",
+											"value": "Ut."
+										},
+										{
+											"key": "tags[]",
+											"value": "Quam.",
+											"disabled": true
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Brandy Lemke"
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Twila Wolf"
+										},
+										{
+											"key": "title",
+											"value": "Twila Wolf",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 17:41:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 7,\n                \"title\": \"Porro voluptate molestiae ipsam ullam.\",\n                \"type\": \"paid\",\n                \"description\": \"Autem occaecati cum id illum ea. Molestiae in vero omnis eos et minus aut. Error repellat non ipsam eligendi ut dolore commodi. Quo optio suscipit et neque iure.\",\n                \"category_id\": 1,\n                \"advertiser_id\": 1,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 1,\n                    \"name\": \"Ut iusto fugit accusantium rerum nihil.\"\n                },\n                \"advertiser\": {\n                    \"id\": 1,\n                    \"name\": \"Brandy Lemke\",\n                    \"email\": \"rex.hauck@spinka.com\"\n                },\n                \"tags\": [\n                    {\n                        \"name\": \"Ut.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 1\n                        }\n                    },\n                    {\n                        \"name\": \"Quam.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 2\n                        }\n                    },\n                    {\n                        \"name\": \"Et.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 9\n                        }\n                    }\n                ]\n            }\n        ],\n        \"first_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"from\": 1,\n        \"last_page\": 1,\n        \"last_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": null,\n        \"path\": \"http://localhost/advertisers/public/api/advertises\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 1,\n        \"total\": 1\n    },\n    \"message\": \"Advertises returned Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "search with tags",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/advertises?filter=filter&tags[]=Ut.&tags[]=Quam.",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"advertises"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "filter"
+										},
+										{
+											"key": "tags[]",
+											"value": "Ut."
+										},
+										{
+											"key": "tags[]",
+											"value": "Quam."
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Brandy Lemke",
+											"disabled": true
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Twila Wolf",
+											"disabled": true
+										},
+										{
+											"key": "title",
+											"value": "Twila Wolf",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 17:41:39 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 7,\n                \"title\": \"Porro voluptate molestiae ipsam ullam.\",\n                \"type\": \"paid\",\n                \"description\": \"Autem occaecati cum id illum ea. Molestiae in vero omnis eos et minus aut. Error repellat non ipsam eligendi ut dolore commodi. Quo optio suscipit et neque iure.\",\n                \"category_id\": 1,\n                \"advertiser_id\": 1,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 1,\n                    \"name\": \"Ut iusto fugit accusantium rerum nihil.\"\n                },\n                \"advertiser\": {\n                    \"id\": 1,\n                    \"name\": \"Brandy Lemke\",\n                    \"email\": \"rex.hauck@spinka.com\"\n                },\n                \"tags\": [\n                    {\n                        \"name\": \"Ut.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 1\n                        }\n                    },\n                    {\n                        \"name\": \"Quam.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 2\n                        }\n                    },\n                    {\n                        \"name\": \"Et.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 9\n                        }\n                    }\n                ]\n            }\n        ],\n        \"first_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"from\": 1,\n        \"last_page\": 1,\n        \"last_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": null,\n        \"path\": \"http://localhost/advertisers/public/api/advertises\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 1,\n        \"total\": 1\n    },\n    \"message\": \"Advertises returned Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "search with type",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/advertises?filter=filter&type=free",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"advertises"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "filter"
+										},
+										{
+											"key": "tags[]",
+											"value": "Ut.",
+											"disabled": true
+										},
+										{
+											"key": "tags[]",
+											"value": "Quam.",
+											"disabled": true
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Brandy Lemke",
+											"disabled": true
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Twila Wolf",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "free",
+											"description": "free Or paid"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 17:46:25 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 2,\n                \"title\": \"Dolore illum pariatur molestiae.\",\n                \"type\": \"paid\",\n                \"description\": \"Est libero non inventore asperiores veniam sed. Quia et nihil sit non. Maxime rem debitis ipsa cupiditate tempora atque. Fugit earum sunt aut quia.\",\n                \"category_id\": 7,\n                \"advertiser_id\": 7,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 7,\n                    \"name\": \"Voluptate minus nam ratione explicabo dolor.\"\n                },\n                \"advertiser\": {\n                    \"id\": 7,\n                    \"name\": \"Danyka McLaughlin\",\n                    \"email\": \"iblick@yahoo.com\"\n                },\n                \"tags\": [\n                    {\n                        \"name\": \"Harum.\",\n                        \"pivot\": {\n                            \"advertise_id\": 2,\n                            \"tag_id\": 5\n                        }\n                    }\n                ]\n            },\n            {\n                \"id\": 5,\n                \"title\": \"Voluptatem qui harum rerum maxime soluta tempora.\",\n                \"type\": \"paid\",\n                \"description\": \"Aut rerum reprehenderit in et omnis. Asperiores ut quia quibusdam quia numquam non deserunt quod. Minus impedit officiis vel incidunt recusandae sed. Dolores ut facere quae soluta et.\",\n                \"category_id\": 4,\n                \"advertiser_id\": 1,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 4,\n                    \"name\": \"Temporibus sit exercitationem ut ea sit aut.\"\n                },\n                \"advertiser\": {\n                    \"id\": 1,\n                    \"name\": \"Brandy Lemke\",\n                    \"email\": \"rex.hauck@spinka.com\"\n                },\n                \"tags\": [\n                    {\n                        \"name\": \"Harum.\",\n                        \"pivot\": {\n                            \"advertise_id\": 5,\n                            \"tag_id\": 5\n                        }\n                    },\n                    {\n                        \"name\": \"Ut non.\",\n                        \"pivot\": {\n                            \"advertise_id\": 5,\n                            \"tag_id\": 3\n                        }\n                    }\n                ]\n            },\n            {\n                \"id\": 7,\n                \"title\": \"Porro voluptate molestiae ipsam ullam.\",\n                \"type\": \"paid\",\n                \"description\": \"Autem occaecati cum id illum ea. Molestiae in vero omnis eos et minus aut. Error repellat non ipsam eligendi ut dolore commodi. Quo optio suscipit et neque iure.\",\n                \"category_id\": 1,\n                \"advertiser_id\": 1,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 1,\n                    \"name\": \"Ut iusto fugit accusantium rerum nihil.\"\n                },\n                \"advertiser\": {\n                    \"id\": 1,\n                    \"name\": \"Brandy Lemke\",\n                    \"email\": \"rex.hauck@spinka.com\"\n                },\n                \"tags\": [\n                    {\n                        \"name\": \"Ut.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 1\n                        }\n                    },\n                    {\n                        \"name\": \"Quam.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 2\n                        }\n                    },\n                    {\n                        \"name\": \"Et.\",\n                        \"pivot\": {\n                            \"advertise_id\": 7,\n                            \"tag_id\": 9\n                        }\n                    }\n                ]\n            },\n            {\n                \"id\": 9,\n                \"title\": \"Autem nobis suscipit ullam porro fugiat eligendi.\",\n                \"type\": \"paid\",\n                \"description\": \"Magni molestiae vero enim voluptatum sed et. Vero omnis veniam quam cumque accusamus. Culpa atque vel occaecati itaque quos et. Voluptatibus non ut tempore maiores.\",\n                \"category_id\": 6,\n                \"advertiser_id\": 5,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 6,\n                    \"name\": \"Rerum ut aut labore quis et inventore.\"\n                },\n                \"advertiser\": {\n                    \"id\": 5,\n                    \"name\": \"Tyrique Rice\",\n                    \"email\": \"dlubowitz@jacobson.com\"\n                },\n                \"tags\": []\n            }\n        ],\n        \"first_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"from\": 1,\n        \"last_page\": 1,\n        \"last_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": null,\n        \"path\": \"http://localhost/advertisers/public/api/advertises\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 4,\n        \"total\": 4\n    },\n    \"message\": \"Advertises returned Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "search with title and type",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/public/api/advertises?filter=filter&title=Quidem sapiente autem&type=free",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"advertises"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "filter"
+										},
+										{
+											"key": "tags[]",
+											"value": "Ut.",
+											"disabled": true
+										},
+										{
+											"key": "tags[]",
+											"value": "Quam.",
+											"disabled": true
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Brandy Lemke",
+											"disabled": true
+										},
+										{
+											"key": "advertiser[]",
+											"value": "Twila Wolf",
+											"disabled": true
+										},
+										{
+											"key": "title",
+											"value": "Quidem sapiente autem"
+										},
+										{
+											"key": "type",
+											"value": "free",
+											"description": "free Or paid"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 17:47:14 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 1,\n                \"title\": \"Quidem sapiente autem rerum ex dignissimos.\",\n                \"type\": \"free\",\n                \"description\": \"Eveniet nam et qui saepe officia sed rerum. Illum consequatur rerum veritatis qui.\",\n                \"category_id\": 6,\n                \"advertiser_id\": 9,\n                \"created_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"updated_at\": \"2022-09-24T12:24:01.000000Z\",\n                \"category\": {\n                    \"id\": 6,\n                    \"name\": \"Rerum ut aut labore quis et inventore.\"\n                },\n                \"advertiser\": {\n                    \"id\": 9,\n                    \"name\": \"Shanon Becker\",\n                    \"email\": \"cstiedemann@brakus.net\"\n                },\n                \"tags\": [\n                    {\n                        \"name\": \"Quasi.\",\n                        \"pivot\": {\n                            \"advertise_id\": 1,\n                            \"tag_id\": 7\n                        }\n                    },\n                    {\n                        \"name\": \"Ut non.\",\n                        \"pivot\": {\n                            \"advertise_id\": 1,\n                            \"tag_id\": 3\n                        }\n                    }\n                ]\n            }\n        ],\n        \"first_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"from\": 1,\n        \"last_page\": 1,\n        \"last_page_url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost/advertisers/public/api/advertises?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": null,\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": null,\n        \"path\": \"http://localhost/advertisers/public/api/advertises\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 1,\n        \"total\": 1\n    },\n    \"message\": \"Advertises returned Successfully\",\n    \"code\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "add advertise",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "test  advr",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "free",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "this is description",
+									"type": "text"
+								},
+								{
+									"key": "category_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "advertiser_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "2022-09-24 12:24:01",
+									"type": "text"
+								},
+								{
+									"key": "tags[]",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "tags[]",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server_url}}/public/api/advertises",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"public",
+								"api",
+								"advertises"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add advertise",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title",
+											"value": "test  advertise",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "free",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "this is description",
+											"type": "text"
+										},
+										{
+											"key": "category_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "advertiser_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "tags[]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "tags[]",
+											"value": "2",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/advertises",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"advertises"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 18:00:46 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "55"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": {\n        \"title\": \"test  advertise\",\n        \"type\": \"free\",\n        \"description\": \"this is description\",\n        \"category_id\": \"1\",\n        \"advertiser_id\": \"1\",\n        \"updated_at\": \"2022-09-24T18:00:46.000000Z\",\n        \"created_at\": \"2022-09-24T18:00:46.000000Z\",\n        \"id\": 22\n    },\n    \"message\": \"Advertises Saved Successfully\",\n    \"code\": 200\n}"
+						},
+						{
+							"name": "add advertise",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title",
+											"value": "test  advertise",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "free",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "this is description",
+											"type": "text"
+										},
+										{
+											"key": "category_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "advertiser_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "tags[]",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "tags[]",
+											"value": "2",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{server_url}}/public/api/advertises",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"public",
+										"api",
+										"advertises"
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 24 Sep 2022 18:01:06 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.41 (Ubuntu)"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "54"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": false,\n    \"data\": {\n        \"title\": [\n            \"The title has already been taken.\"\n        ],\n        \"tags.0\": [\n            \"The selected tags.0 is invalid.\"\n        ]\n    },\n    \"message\": \"\",\n    \"code\": 422\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
